@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wrapper h1 {
+  margin-top: 3rem;
+}
+
+form {
+  margin: 1rem 1rem;
+  
+}
+
+#guess {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+input {
+  padding: 0.4rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  background-color: rgb(128, 128, 128);
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+  cursor: pointer;
+  padding: 0.4rem 2rem 0.4rem 2rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: yellowgreen;
+}
+
+.resultParas{
+    width: 350px;
+}
+
+
+.lowOrHi{
+    color: red;
+    text-align: center;
+}
+
+.correct{
+  color: greenyellow;
+  text-align: center;
+}
